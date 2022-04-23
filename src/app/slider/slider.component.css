@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  border: none;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 100vh;
+}
+.instagram-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.app--phone {
+  display: flex;
+}
+.app--phone img {
+  width: 550px;
+  -webkit-touch-callout: none; /* iPhone OS, Safari */
+  -webkit-user-select: none; /* Chrome, Safari 3 */
+  -khtml-user-select: none; /* Safari 2 */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none; /* Possível implementação no futuro */
+  cursor: default;
+}
+.slider {
+  margin-top: 95px;
+  background-color: aquamarine;
+  width: 220px;
+  height: 375px;
+  margin-left: -400px;
+  flex: 1;
+  overflow: hidden;
+}
+
+.slider--width {
+  height: 100%;
+  display: flex;
+  transition: all ease 0.4s;
+}
+.slider--item {
+  width: 100vw;
+  height: inherit;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+.app--loginOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  width: 100%;
+  -webkit-touch-callout: none; /* iPhone OS, Safari */
+  -webkit-user-select: none; /* Chrome, Safari 3 */
+  -khtml-user-select: none; /* Safari 2 */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none; /* Possível implementação no futuro */
+  cursor: default;
+}
+label {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  padding: 20px 42px;
+  border: 1px solid lightgray;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 5px 30px;
+}
+.group:nth-child(1) {
+  min-height: 330px;
+}
+.instagram--logo img {
+  padding-bottom: 20px;
+  width: 200px;
+}
+.instragram--input input {
+  width: 250px;
+  height: 40px;
+  padding: 20px 0 0 8px;
+  text-align: start;
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+}
+.instragram--input input:focus {
+  outline: none;
+  border: 1px solid rgba(var(--ca6, 180, 180, 180), 1);
+}
+.instragram--input span {
+  font-size: 8px;
+  padding-left: 5px;
+  margin-bottom: -15px;
+  z-index: 1;
+  color: #929292;
+}
+.instagram--loginBTN {
+  background-color: rgb(27, 152, 255);
+  color: #fff;
+  height: 30px;
+  font-weight: bold;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+.instagram--p-or {
+  padding: 10px 0;
+  color: #929292;
+  font-size: 12px;
+  font-weight: bold;
+}
+.with--facebook img {
+  width: 25px;
+}
+
+.instagram--forgot,
+.with--facebook {
+  color: rgb(55, 80, 133);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.instagram--forgot {
+  padding: 10px 0;
+  font-size: 12px;
+  font-weight: none;
+}
+
+.intagram--apple--google img {
+  width: 120px;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.blue--link {
+  color: rgb(27, 152, 255);
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .app {
+    width: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  .instagram-wrapper {
+    width: 80%;
+  }
+
+  .app--phone {
+    display: none;
+  }
+
+  .app--loginOptions {
+    width: 100%;
+    height: 80vh;
+  }
+  .intagram--apple--google img {
+    width: 79px;
+    padding: 0;
+  }
+
+  .group {
+    border: 1px solid transparent;
+    padding: 0;
+  }
+
+  .group p,
+  .blue--link {
+    font-size: 11px;
+    padding: 0;
+  }
+}
