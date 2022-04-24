@@ -1,6 +1,13 @@
 <div class="middle">
   <span *ngFor="let menu of menus" class="{{ menu === 'M S M'? 'logo' : 'btn'}}">
-   {{menu}}
+    <span *ngIf="menu === 'M S M'">
+      <span>M</span>
+      <span style='color: #00C2FF'>S</span>
+      <span>M</span>
+    </span>
+    <span *ngIf="menu !== 'M S M'">
+      {{menu}}
+    </span>
   </span>
   
 </div>
