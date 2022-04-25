@@ -1,14 +1,14 @@
 <div class="middle">
-  <span *ngFor="let menu of menus" class="{{ menu === 'M S M'? 'logo' : 'btn'}}">
+  <a *ngFor="let menu of menus" class="{{ menu === 'M S M'? 'logo' : 'btn'}} " routerLink="/{{menu === 'home' || menu === 'M S M' ? '': menu }}">
     <span *ngIf="menu === 'M S M'; else otherButton">
       <span>M</span>
-      <span style='color: #00C2FF'>S</span>
+      <span [ngStyle]="{'color': '#00C2FF'}">S</span>
       <span>M</span>
     </span>
     <ng-template #otherButton>
-      <span>{{menu}}</span>
+      <span>{{menu | uppercase}}</span>
     </ng-template>
-   
-  </span>
+    
+  </a>
   
 </div>

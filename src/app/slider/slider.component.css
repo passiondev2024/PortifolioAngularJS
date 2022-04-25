@@ -82,15 +82,6 @@ body {
   100% {margin-left: 0px;}
 }
 
-@keyframes aparecer {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 @media (max-width: 1024px) {
   .app {
     width: 80%;
@@ -101,8 +92,8 @@ body {
   body {
     background-color: #ffffff;
   }
-
-  .instagram-wrapper {
-    width: 100%;
+  .app{
+    margin-top:-80px;
   }
+
 }

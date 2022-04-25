@@ -1,0 +1,155 @@
+
+.home{
+padding-top: 80px;
+display: flex;
+justify-content: space-around;
+height: auto;
+}
+.home--Apresentacao{
+ display: flex;
+ padding-top: 100px;
+ flex-direction: column;
+ align-items: flex-end;
+}
+.home--nome{
+  font-weight: none;
+  font-size:90px;
+  animation: aparecer 2s,
+  praEsquerda 2s;
+}
+.home--skils{
+  color: #00C2FF;
+  font-size: 45px;
+  animation: corAzul 9s;
+  padding-bottom: 20px;
+}
+.home--frase{
+  font-size: 21px;
+  animation: corCinza 10s;
+}
+
+.home--botaoGit--area {
+  height:200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home--botaoGit--botao {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  letter-spacing: 1.3px;
+  color: #313133;
+  background: #4FD1C5;
+  background: linear-gradient(90deg, #00C2FF 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  padding: 15px;
+  }
+
+a::before {
+  content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #00FFCB;
+  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.home--botaoGit--botao:hover, .home--botaoGit--botao:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+a:hover::before, a:focus::before {
+  opacity: 1;
+}
+
+a::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a:hover::after, a:focus::after {
+  animation: none;
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .home--nome{
+    font-size:55px;
+  }
+  .home--skils{
+    font-size: 30px;
+  }
+  .home--frase{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 650px) {
+  .home{
+    flex-direction: column;
+  }
+  .home--nome{
+    font-size:35px;
+  }
+  .home--skils{
+    font-size: 25px;
+  }
+  .home--frase{
+    font-size: 14px;
+  }
+  .home--Apresentacao{
+    align-items: flex-start;
+    margin-top: -200px;
+  }
+  .home--botaoGit--area{
+    height:100px;
+    align-self: center;
+  }
+  .home--botaoGit--botao {
+    min-width: 150px;
+    min-height: 30px;
+    font-size: 18px;
+    padding: 10px;
+
+  }
+}
+
+@keyframes corAzul {
+  from {
+    color: #fff;
+  }
+  to {
+    color: #00C2FF;
+  }
+}
+
+@keyframes corCinza {
+  from {
+    color: #fff;
+  }
+  to {
+    color: #232323;
+  }
+}

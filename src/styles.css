@@ -5,3 +5,24 @@
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
 }
+a{
+	text-decoration: none;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes praEsquerda {
+  from {
+     margin-left: 250px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
