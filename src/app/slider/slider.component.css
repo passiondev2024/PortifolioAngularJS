@@ -59,7 +59,7 @@ body {
   height: 100%;
   display: flex;
   transition: all ease 0.4s;
-  animation: show 9s forwards infinite;
+  animation: show 20s forwards infinite;
 }
 .slider--item {
   width: 100vw;
@@ -76,9 +76,15 @@ body {
 
 @keyframes show {
   0%   {margin-left: 0px;}
-  25%  {margin-left: -220px}
-  50%  {margin-left: -440px}
-  75%  {margin-left: -660px;}
+  10%  {margin-left: -220px;}
+  20%  {margin-left: -440px;}
+  30%  {margin-left: -660px;}
+  40%  {margin-left: -880px;}
+  50%  {margin-left: -1100px;}
+  60%  {margin-left: -1320px;}
+  70%  {margin-left: -880px;}
+  80%  {margin-left: -660px;}
+  90%  {margin-left: 0px;}
   100% {margin-left: 0px;}
 }
 
