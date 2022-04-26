@@ -7,16 +7,20 @@
  background: #00C2FF;
  height: 80px;
  display: flex;
- flex-direction: column;
+ justify-content:space-around;
  align-items: center;
 }
 .footer--info{
   background: #232323;
   height: 250px;
- 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+}
+.footer--area{
+  flex: 1;
+  display: flex;
   justify-content: space-around;
 }
 .footer--info--risco{
@@ -33,5 +37,14 @@
 }
 
 @media (max-width: 650px) {
- 
+  .footer--contatos{
+    height: 150px;
+    flex-direction: column;
+  }
+  .footer--area{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  }
 }
