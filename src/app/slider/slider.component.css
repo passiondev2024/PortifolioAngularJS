@@ -99,7 +99,8 @@ body {
     background-color: #ffffff;
   }
   .app{
-    margin-top:-80px;
+    margin-top:-100px;
+    width: 30%;
   }
 
 }

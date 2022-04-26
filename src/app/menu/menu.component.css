@@ -9,7 +9,6 @@
 	position: relative;
   transition: all 0.3s;
 }
-
 .btn::before {
 	content: '';
 	position: absolute;
@@ -28,7 +27,6 @@
 	border-bottom-color: rgba(255,255,255,0.5);
 	transform: scale(0.1, 1);
 }
-
 .btn:hover::before {
 	opacity: 1;	
 	transform: scale(1, 1);
@@ -68,4 +66,60 @@
   -khtml-user-select: none; /* Konqueror HTML */
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.ignore--logo{
+	display: none;
+}
+
+.menu--icon{
+	color: #fff;
+	width: 60px;
+	display: none;
+	cursor: pointer;
+}
+.menu--toggle--area{
+	display: none; 
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	position: fixed;
+	top: 81px;
+	right:0;
+	width: 250px;
+	height: 300px;
+	background: #131313;
+}
+
+.btn--toggle{
+	padding: 15px;
+	width: 250px;
+	text-decoration: none;
+	color: #fff;
+	font-size:20px;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #494949;
+}
+
+@media (max-width: 1024px) {
+	.btn{
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 600px) {
+  .menu--icon{
+		display: block;
+	}
+	.btn{
+		display: none;
+	}
+	.middle{
+		justify-content: space-between;
+	}
+	.menu--toggle--area{
+		display: flex; 
+	}
 }
