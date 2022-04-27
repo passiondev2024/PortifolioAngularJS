@@ -4,11 +4,12 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-image: "../../../assets/back-about.jpg";
 }
 .about--info{
   width: 70%;
   height: 500px;
-  background-color: #232323;
+
   display: flex;
   align-items: center;
   border-radius: 30px;
@@ -44,9 +45,7 @@
     flex-direction: column;
     margin-top: -200px;
   }
-  .about--info{
-    background-color: #fff;
-  }
+
   .image--me{
     width: 200px;
     height: 100%;

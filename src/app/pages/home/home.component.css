@@ -22,12 +22,12 @@ height: auto;
 .home--skils{
   color: #00C2FF;
   font-size: 40px;
-  animation: corAzul 9s;
+  animation: corAzul 4s;
   padding-bottom: 20px;
 }
 .home--frase{
   font-size: 21px;
-  animation: corCinza 10s;
+  animation: corCinza 4s;
 }
 
 .home--botaoGit--area {
