@@ -9,6 +9,15 @@ a{
 	text-decoration: none;
 }
 
+@keyframes esquerdaCentro {
+  from {
+    margin-right: -2080px;
+  }
+  to {
+    margin-right: 0px;
+  }
+}
+
 @keyframes aparecer {
   from {
     opacity: 0;

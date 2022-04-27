@@ -1,0 +1,14 @@
+<div class="about">
+  <div class="about--info">
+    <div class="about--info--area">
+      <table  mat-table [dataSource]="dataSource" class="mat-elevation-z8 table--principal">
+        <mat-text-column class="table--coluna" name="question"></mat-text-column>
+        <mat-text-column  class="table--coluna" name="aswer"></mat-text-column>
+      
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </div>
+    <img class="image--me" src="../../../assets/me.jpg" alt="My image">
+  </div>
+</div>

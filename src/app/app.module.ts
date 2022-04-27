@@ -10,6 +10,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTreeModule} from '@angular/material/tree';
+import { AboutComponent } from './pages/about/about.component';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -17,14 +19,16 @@ import {MatTreeModule} from '@angular/material/tree';
     MenuComponent,
     SliderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatTreeModule
+    MatTreeModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
