@@ -25,18 +25,21 @@ body {
   justify-content: center;
   width: 30%;
   height: 100vh;
+
 }
 .instagram-wrapper {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   animation: aparecer 2s;
+
 }
 .app--phone {
   display: flex;
 }
 .app--phone img {
-  width: 550px;
+  margin-left: 100px;
+  width:270px;
   -webkit-touch-callout: none; /* iPhone OS, Safari */
   -webkit-user-select: none; /* Chrome, Safari 3 */
   -khtml-user-select: none; /* Safari 2 */
@@ -46,11 +49,11 @@ body {
   cursor: default;
 }
 .slider {
-  margin-top: 95px;
+  margin-top: 90px;
   background-color: aquamarine;
-  width: 220px;
+  width: 218px;
   height: 375px;
-  margin-left: -400px;
+  margin-left: -245px;
   flex: 1;
   overflow: hidden;
 }
