@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
 }
+body{
+  background-color: #232323;
+}
 a{
 	text-decoration: none;
 }
