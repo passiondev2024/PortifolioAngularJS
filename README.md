@@ -15,11 +15,6 @@ Tabela de conteúdos
    *  [Tecnologias](#tecnologias)
    *  [Como usar](#como-usar)
       *  [Telas](#Telas)
-      *  [Pre Requisitos](#pre-requisitos)
-      *  [Local files](#local-files)
-      *  [Remote files](#remote-files)
-      *  [Multiple files](#multiple-files)
-      *  [Combo](#combo)
 
 <!--te-->
 
@@ -58,6 +53,9 @@ $ git checkout feature/MM_version_01
    Para atualizar a 'backendUrl', basta ir na pasta environments/environments.ts do sistema e colar na variável 'backendUrl' o link que estiver rodando o seu Servidor, conforme imagem:
   ![image](https://user-images.githubusercontent.com/69858181/169563106-531f1d48-724d-48f3-93ed-2544fa055d49.png)
 
+# Tecnologias
+
+# Como usar 
 
 # Telas
   Status: Nesta tela possui um Botão para criar "Novo Status" e a listagem dos Status com as opções de "Visualizar" e "Excluir".
