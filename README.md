@@ -12,10 +12,10 @@ Tabela de conteúdos
       *  [Servidor](#Servidor)
    *  [Tecnologias](#tecnologias)
    *  [Como usar](#como-usar)
-   *  [Telas]
+   *  [Telas](#Telas)
       *  [Status](#Status)
       *  [Fornecedores](#Fornecedores)
-      *  [Regime Contratação](#Regime)
+      *  [Regime Contratação](#Regime Contratação)
       *  [Contratações](#Contratações)
       *  [Relatório](#Relatório)
 <!--te-->
