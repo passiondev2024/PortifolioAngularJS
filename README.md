@@ -8,9 +8,11 @@ Tabela de conteúdos
 <!--ts-->
    *  [Sobre](#Sobre)
    *  [Instalação](#instalacao)
+      *  [NPM](#NPM)
+      *  [YARN](#YARN)
    *  [Tecnologias](#tecnologias)
    *  [Como usar](#como-usar)
-      *   [Pre Requisitos](#pre-requisitos)
+      *  [Pre Requisitos](#pre-requisitos)
       *  [Local files](#local-files)
       *  [Remote files](#remote-files)
       *  [Multiple files](#multiple-files)
@@ -31,11 +33,17 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 
 # Instalacao
   <p>Para a instalação desta aplicação é necessário que já tenha o Node pré instalado</p>
- `npm install` para instalar todas as dependencias
- `npm run start` ou `ng serve` para testar no localhost
- `npm run build` ou `ng build` para gerar a pasta da dist
- 
- 
+
+## NPM
+ <p>`npm install` para instalar todas as dependencias</p>
+ <p>`npm run start` ou `ng serve` para testar no localhost</p>
+ <p>`npm run build` ou `ng build` para gerar a pasta da dist</p>
+## YARN
+ ` yarn add . ` para instalar todas as dependencias
+
+ `yarn start` ou `ng serve` para testar no localhost
+
+ `yarn build` ou `ng build` para gerar a pasta da dist
 
 
 ## Development server
