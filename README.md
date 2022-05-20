@@ -1,3 +1,7 @@
+<h1 align="center">
+  <img alt="SIGGOContratações" title="#SIGGOContratações" src="https://user-images.githubusercontent.com/69858181/169547033-a91c483f-be7e-4e83-b7b2-518da1399e40.png" />
+</h1>
+
 ![image](https://user-images.githubusercontent.com/69858181/169547033-a91c483f-be7e-4e83-b7b2-518da1399e40.png)
 
 
@@ -24,7 +28,7 @@ Tabela de conteúdos
 
 
 # Sobre
-Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 13.2.0, utilizando como template o [AdminLTE](https://adminlte.io/themes/v3/index3.html)
+Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 13.2.0, utilizando como template o [AdminLTE](https://adminlte.io/themes/v3/index3.html) versão 3.2.0
 
 
 # Instalacao
