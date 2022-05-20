@@ -31,13 +31,13 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 # Instalacao
   Para a instalação desta aplicação é necessário que já tenha o [Node.js](https://nodejs.org/en/) e o [Git](https://git-scm.com/downloads) já instalados. 
   
-<h4>Clone este repositório</h4>
+<h3>Clone este repositório</h3>
 $ git clone <https://gitlab.tre-ma.jus.br/gitlab/sismatech/siggo-contratacao-frontend.git>
 
-<h4>Acesse a pasta do projeto no terminal/cmd</h4>
+<h3>Acesse a pasta do projeto no terminal/cmd</h3>
 $ cd siggo-contratacao-frontend 
 
-<h4>Checkout na Branch</h4>
+<h3>Checkout na Branch</h3>
 $ git checkout feature/MM_version_01
 
 ## NPM
