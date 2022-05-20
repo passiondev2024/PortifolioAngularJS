@@ -1,3 +1,29 @@
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Instalação](#instalacao)
+   * [Como usar](#como-usar)
+      * [Pre Requisitos](#pre-requisitos)
+      * [Local files](#local-files)
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+   * [Tecnologias](#tecnologias)
+<!--te-->
+
+
+
+
+
+
+
+
+
+
+
+
+
 # AngularAulas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.0.
