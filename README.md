@@ -15,7 +15,7 @@ Tabela de conteúdos
    *  [Telas]
       *  [Status](#Status)
       *  [Fornecedores](#Fornecedores)
-      *  [Regime Contratação](#Regime Contratação:)
+      *  [Regime Contratação](#Regime)
       *  [Contratações](#Contratações)
       *  [Relatório](#Relatório)
 <!--te-->
