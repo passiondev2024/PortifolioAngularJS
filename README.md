@@ -1,7 +1,6 @@
 <h1 align="center">
-  <img alt="SIGGOContratações" title="#SIGGOContratações" src="https://user-images.githubusercontent.com/69858181/169550054-2bbf8519-b022-4b9c-990b-a997bc268788.png" />
+  <img alt="SIGGOContratações" title="#SIGGOContratações" src="https://user-images.githubusercontent.com/69858181/169584090-d5c33c24-b4f8-41e5-b8e5-9e78e20da7a9.png" />
 </h1>
-
 
 Tabela de conteúdos
 =================
