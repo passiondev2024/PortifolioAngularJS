@@ -35,16 +35,18 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
   <p>Para a instalação desta aplicação é necessário que já tenha o Node pré instalado</p>
 
 ## NPM
- <p> `npm install` para instalar todas as dependencias </p>
- <p> `npm run start` ou `ng serve` para testar no localhost </p>
- <p> `npm run build` ou `ng build` para gerar a pasta da dist </p>
+  `npm install` para instalar todas as dependencias
+ 
+  `npm run start` ou `ng serve` para testar no localhost 
+
+  `npm run build` ou `ng build` para gerar a pasta da dist
  
 ## YARN
- ` yarn add . ` para instalar todas as dependencias
+  ` yarn add . ` para instalar todas as dependencias
 
- `yarn start` ou `ng serve` para testar no localhost
+  `yarn start` ou `ng serve` para testar no localhost
 
- `yarn build` ou `ng build` para gerar a pasta da dist
+  `yarn build` ou `ng build` para gerar a pasta da dist
 
 
 ## Development server
