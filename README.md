@@ -53,6 +53,9 @@ $ git checkout feature/MM_version_01
   ![image](https://user-images.githubusercontent.com/69858181/169563106-531f1d48-724d-48f3-93ed-2544fa055d49.png)
 
 # Tecnologias
+* [Angular](https://github.com/angular/angular-cli)
+* [AdminLTE](https://adminlte.io/themes/v3/index3.html)
+* [TypeScript](https://www.typescriptlang.org/)
 
 # Como usar 
 
