@@ -10,11 +10,11 @@ Tabela de conteúdos
    * :point_right: [Instalação](#instalacao)
    * :point_right: [Tecnologias](#tecnologias)
    * :point_right: [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
+      * :point_right: [Pre Requisitos](#pre-requisitos)
+      * :point_right: [Local files](#local-files)
+      * :point_right: [Remote files](#remote-files)
+      * :point_right: [Multiple files](#multiple-files)
+      * :point_right: [Combo](#combo)
 
 <!--te-->
 
