@@ -59,10 +59,10 @@ $ git checkout feature/MM_version_01
 # Telas
   Status: Nesta tela possui um Botão para criar "Novo Status" e a listagem dos Status com as opções de "Visualizar" e "Excluir".
   
-  Fornecedores: 
+  Fornecedores: Nesta tela possui um Botão para criar "Novo Fornecedor", listagem dos Fornecedores com possibilidade de filtrage e com as opções de "Editar",  "Visualizar" e "Excluir".
   
   Regime Contratação: Nesta tela possui um Botão para criar "Novo Regime Contratação" e a listagem dos Regimes com as opções de "Visualizar" e "Excluir".
   
-  Contratações: 
+  Contratações: Nesta tela possui um Botão para criar "Nova Contratação", listagem das Contratações com possibilidade de filtrage e com as opções de "Editar", "Visualizar" e "Excluir". Dentro da tela que possui as informações da contratação escolhida, tem a listagem de Prorrogações do contrato e a possibilidade de adicionar uma nova prorrogação.
   
-  Relatório: 
+  Relatório: Na tela de relatório é possível gerar um relatório conforme ano e unidade selecionada, sendo ele em PDF ou docx.
