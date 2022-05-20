@@ -6,10 +6,10 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
-   * [Instalação](#instalacao)
-   * [Tecnologias](#tecnologias)
-   * [Como usar](#como-usar)
+  :point_right: * [Sobre](#Sobre)
+  :point_right: * [Instalação](#instalacao)
+  :point_right: * [Tecnologias](#tecnologias)
+  :point_right: * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
       * [Local files](#local-files)
       * [Remote files](#remote-files)
@@ -26,7 +26,7 @@ Tabela de conteúdos
 
 
 # Sobre
-Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 13.2.0, utilizando como template o [AdminLTE](https://adminlte.io/themes/v3/index3.html) versão 3.2.0
+Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 13.2.0, utilizando como template o [AdminLTE](https://adminlte.io/themes/v3/index3.html) versão 3.2.0 
 
 
 # Instalacao
