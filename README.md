@@ -7,7 +7,6 @@ Tabela de conteúdos
 =================
 <!--ts-->
    *  [Sobre](#Sobre)
-
    *  [Instalação](#instalacao)
       *  [NPM](#NPM)
       *  [YARN](#YARN)
