@@ -29,7 +29,16 @@ Tabela de conteúdos
 Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 13.2.0, utilizando como template o [AdminLTE](https://adminlte.io/themes/v3/index3.html) versão 3.2.0, com ele foi desenvolvido um sistema de contratações de serviços.
 
 # Instalacao
-  Para a instalação desta aplicação é necessário que já tenha o [Node.js](https://nodejs.org/en/) pré instalado.
+  Para a instalação desta aplicação é necessário que já tenha o [Node.js](https://nodejs.org/en/) e o [Git](https://git-scm.com/downloads) já instalados. 
+  
+<h2>Clone este repositório</h2>
+$ git clone <https://gitlab.tre-ma.jus.br/gitlab/sismatech/siggo-contratacao-frontend.git>
+
+<h2>Acesse a pasta do projeto no terminal/cmd</h2>
+$ cd siggo-contratacao-frontend 
+
+<h2>Checkout na Branch</h2>
+$ git checkout feature/MM_version_01
 
 ## NPM
   `npm install` para instalar todas as dependencias que estão no package.json.
@@ -46,7 +55,7 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
   `yarn build` ou `ng build` para gerar a pasta da dist.
 
 ## Servidor
-   Para atualizar a 'backendUrl', basta ir na pasta environments/environments.ts do sistema e colar na variável 'backendUrl' o link que estiver rodando o seu Servidor, conforme imagem abaixo:
+   Para atualizar a 'backendUrl', basta ir na pasta environments/environments.ts do sistema e colar na variável 'backendUrl' o link que estiver rodando o seu Servidor, conforme imagem:
   ![image](https://user-images.githubusercontent.com/69858181/169563106-531f1d48-724d-48f3-93ed-2544fa055d49.png)
 
 
