@@ -11,6 +11,7 @@ Tabela de conteúdos
    *  [Instalação](#instalacao)
       *  [NPM](#NPM)
       *  [YARN](#YARN)
+      *  [Servidor](#Servidor)
    *  [Tecnologias](#tecnologias)
    *  [Como usar](#como-usar)
       *  [Telas](#Telas)
@@ -28,22 +29,25 @@ Tabela de conteúdos
 Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 13.2.0, utilizando como template o [AdminLTE](https://adminlte.io/themes/v3/index3.html) versão 3.2.0, com ele foi desenvolvido um sistema de contratações de serviços.
 
 # Instalacao
-  <p>Para a instalação desta aplicação é necessário que já tenha o Node pré instalado</p>
+  Para a instalação desta aplicação é necessário que já tenha o [Node.js](https://nodejs.org/en/) pré instalado.
 
 ## NPM
-  `npm install` para instalar todas as dependencias.
- 
+  `npm install` para instalar todas as dependencias que estão no package.json.
+  
   `npm run start` ou `ng serve` para rodar aplicação no localhost:4200.
 
   `npm run build` ou `ng build` para gerar a pasta da dist.
  
 ## YARN
-  ` yarn add . ` para instalar todas as dependencias.
+  ` yarn add . ` para instalar todas as dependencias que estão no package.json.
 
   `yarn start` ou `ng serve` para rodar aplicação no localhost:4200.
 
   `yarn build` ou `ng build` para gerar a pasta da dist.
 
+## Servidor
+   Para atualizar a 'backendUrl', basta ir na pasta environments/environments.ts do sistema e colar na variável 'backendUrl' o link que estiver rodando o seu Servidor, conforme imagem abaixo:
+  ![image](https://user-images.githubusercontent.com/69858181/169563106-531f1d48-724d-48f3-93ed-2544fa055d49.png)
 
 
 # Telas
