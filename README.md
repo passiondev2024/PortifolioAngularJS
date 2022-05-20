@@ -25,12 +25,12 @@ Tabela de conteúdos
 
 
 
-# Sobre :grey_exclamation:
-Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 13.2.0, utilizando como template o [AdminLTE](https://adminlte.io/themes/v3/index3.html) versão 3.2.0
+# Sobre
+Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 13.2.0, utilizando como template o [AdminLTE](https://adminlte.io/themes/v3/index3.html) versão 3.2.0, com ele foi desenvolvido um sistema de contratações de serviços.
 
 
 # Instalacao
-
+  <p>Para a instalação desta aplicação é necessário que já tenha o Node pré instalado</p>
  `npm install` para instalar todas as dependencias
  `npm run start` ou `ng serve` para testar no localhost
  `npm run build` ou `ng build` para gerar a pasta da dist
