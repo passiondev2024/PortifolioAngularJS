@@ -9,11 +9,12 @@
       <span>{{menu | uppercase}}</span>
     </ng-template>
   </a>
-
   <mat-icon class="menu--icon" aria-hidden="false" aria-label="Example home icon" color="#fff" (click)="openCloseMenu()">menu</mat-icon>
 </div>
+
+
 <span *ngIf="showMenu" class="menu--toggle--area">
-    <a *ngFor="let menu of menus" routerLink="/{{menu === 'home' ? '': menu }}" class="{{ menu === 'M S M'? 'ignore--logo' : 'btn--toggle'}}">
+    <a (click)="this.showMenu = false" *ngFor="let menu of menus" routerLink="/{{menu === 'home' ? '': menu }}" class="{{ menu === 'M S M'? 'ignore--logo' : 'btn--toggle'}}">
         <span>{{menu | uppercase}}</span>
     </a>
 </span>

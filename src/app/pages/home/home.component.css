@@ -29,7 +29,7 @@ height: auto;
   font-size: 21px;
   animation: corCinza 4s;
 }
-
+/* 
 .home--botaoGit--area {
   height:200px;
   display: flex;
@@ -88,7 +88,89 @@ a::after {
 a:hover::after, a:focus::after {
   animation: none;
   display: none;
+} */
+
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background:  #151515;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
+
+a{
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  animation: crescerLetra 3s linear infinite;
+}
+
+a:hover{
+  color:  #00C2FF;
+  animation:none;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color:  #151515;
+}
+
+.glow-on-hover:active:after {
+  background:  #151515;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:  #151515;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+
+@keyframes crescerLetra {
+  0% { font-size: 12px; }
+  50% { font-size: 17px; }
+  100% { font-size: 12px; }
+}
+
 
 @media (max-width: 1050px) {
   .home--nome{
@@ -154,9 +236,9 @@ a:hover::after, a:focus::after {
 
 @keyframes corCinza {
   from {
-    color: #fff;
+    color: #232323;
   }
   to {
-    color: #232323;
+    color: #fff;
   }
 }

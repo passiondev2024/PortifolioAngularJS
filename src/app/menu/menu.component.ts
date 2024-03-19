@@ -19,9 +19,5 @@ export class MenuComponent implements OnInit {
   }
   openCloseMenu(): void{
     this.showMenu = !this.showMenu;
-
-    setTimeout(() => {this.showMenu = false},7000);
   }
-
-  
 }
