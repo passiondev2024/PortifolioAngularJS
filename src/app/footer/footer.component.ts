@@ -10,15 +10,27 @@ interface ListFooter{
 const TREE_DATA: ListFooter[] = [
   {
     name: 'Front-End',
-    children: [{name: 'AngularJS / Angular13'}, {name: 'ReactJS / React Native'}, {name: 'VueJS'}],
+    children: [{name: 'Angular'}, {name: 'ReactJS / React Native'}, {name: 'VueJS'}, {name: 'Ionic'}],
   },
   {
     name: 'Back-End',
-    children: [{name: 'NodeJS'}, {name: 'Java 8'}],
+    children: [{name: 'NodeJS'}, {name: 'JAVA'}],
   },
   {
     name: 'Database',
     children: [{name: 'MySql / PostgresSQL'}, {name: 'SQL Server'}, {name: 'MongoDB'}],
+  },
+  {
+    name: ' Skills',
+    children: [
+      {name: 'Deploy: Netlify / Vercel / Heroku'}, 
+      {name: 'Firebase / Appwrite'}, 
+      {name: 'GitLab / Azure devops'},
+      {name: 'Insomnia / Postman'},
+      {name: 'Jira'},
+      {name: 'Jenkins'},
+      {name: 'WebSphere Application Server'}
+    ],
   },
 ];
 @Component({

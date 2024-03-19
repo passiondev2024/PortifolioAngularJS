@@ -24,12 +24,14 @@
       </a>
     </span>
   </div>
+
+  
   <div class="footer--info"> 
-    <mat-tree [dataSource]="dataSource" [treeControl]="treeControl" class="example-tree">
-      <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle class="teste">{{node.name}}
+    <mat-tree [dataSource]="dataSource" [treeControl]="treeControl" class="tree">
+      <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle class="tree-info-color">{{node.name}}
       </mat-tree-node>
       <mat-nested-tree-node *matTreeNodeDef="let node; when: hasChild">
-          <div class="mat-tree-node teste node-nome" >
+          <div class="mat-tree-node tree-info-color node-nome" >
             <button mat-icon-button matTreeNodeToggle
                     [attr.aria-label]="'Toggle ' + node.name">
               <mat-icon class="mat-icon-rtl-mirror ">
@@ -38,7 +40,7 @@
             </button>
             {{node.name}}
           </div>
-          <div [class.example-tree-invisible]="!treeControl.isExpanded(node)"
+          <div [class.tree-invisible]="!treeControl.isExpanded(node)"
               role="group">
             <ng-container matTreeNodeOutlet></ng-container>
         </div>
