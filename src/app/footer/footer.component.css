@@ -69,11 +69,27 @@ button{
   color: #fff;
   font-size: 17px;
 }
-@media (max-width: 1024px) {
- 
+a{
+  img{
+    transition: all 1s ;
+   } 
+
 }
 
-@media (max-width: 650px) {
+a:hover {
+ img{
+  filter: brightness(60%);
+ } 
+}
+
+@media (max-width: 700px) {
+
+  a:hover {
+    img{
+     filter: none;
+    } 
+   }
+
   .footer--info--risco{
     margin-bottom:0px;
   }

@@ -50,6 +50,7 @@
   height: 80px;
   background-color: #131313;
 	position:fixed;
+	z-index: 10;
 }
 .logo{
   color: #fff;
