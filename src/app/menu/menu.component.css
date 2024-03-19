@@ -23,6 +23,12 @@
 	border-bottom-color: #00C2FF;
 	transform: scale(0.1, 1);
 }
+
+.ativo::before {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+
 .btn:hover::before {
 	opacity: 1;	
 	transform: scale(1, 1);

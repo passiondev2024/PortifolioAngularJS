@@ -1,5 +1,5 @@
 <div class="middle">
-  <a *ngFor="let menu of menus" class="{{ menu === 'M S M'? 'logo' : 'btn'}} " routerLink="/{{menu === 'home' || menu === 'M S M' ? '': menu }}">
+  <a *ngFor="let menu of menus" class="{{ menu === 'M S M'? 'logo' : 'btn'}} " routerLinkActive="ativo" [routerLinkActiveOptions]="{exact: true}" routerLink="/{{menu === 'home' || menu === 'M S M' ? '': menu }}">
     <span *ngIf="menu === 'M S M'; else otherButton">
       <span>M</span>
       <span [ngStyle]="{'color': '#00C2FF'}">S</span>
@@ -14,7 +14,7 @@
 
 
 <span *ngIf="showMenu" class="menu--toggle--area">
-    <a (click)="this.showMenu = false" *ngFor="let menu of menus" routerLink="/{{menu === 'home' ? '': menu }}" class="{{ menu === 'M S M'? 'ignore--logo' : 'btn--toggle'}}">
+    <a (click)="this.showMenu = false" routerLinkActive="ativo" [routerLinkActiveOptions]="{exact: true}" *ngFor="let menu of menus" routerLink="/{{menu === 'home' ? '': menu }}" class="{{ menu === 'M S M'? 'ignore--logo' : 'btn--toggle'}}">
         <span>{{menu | uppercase}}</span>
     </a>
 </span>
