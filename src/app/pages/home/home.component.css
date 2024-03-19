@@ -29,68 +29,8 @@ height: auto;
   font-size: 21px;
   animation: corCinza 4s;
 }
-/* 
-.home--botaoGit--area {
-  height:200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.home--botaoGit--botao {
-  min-width: 300px;
-  min-height: 60px;
-  font-family: 'Nunito', sans-serif;
-  font-size: 22px;
-  letter-spacing: 1.3px;
-  color: #313133;
-  background: #4FD1C5;
-  background: linear-gradient(90deg, #00C2FF 0%, rgba(79,209,197,1) 100%);
-  border: none;
-  border-radius: 1000px;
-  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
-  transition: all 0.3s ease-in-out 0s;
-  cursor: pointer;
-  outline: none;
-  padding: 15px;
-}
-a::before {
-  content: '';
-  border-radius: 1000px;
-  min-width: calc(300px + 12px);
-  min-height: calc(60px + 12px);
-  border: 6px solid #00FFCB;
-  box-shadow: 0 0 60px rgba(0,255,203,.64);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: all .3s ease-in-out 0s;
-}
-.home--botaoGit--botao:hover, .home--botaoGit--botao:focus {
-  color: #313133;
-  transform: translateY(-6px);
-}
-a:hover::before, a:focus::before {
-  opacity: 1;
-}
-a::after {
-  content: '';
-  width: 30px; height: 30px;
-  border-radius: 100%;
-  border: 6px solid #00FFCB;
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-a:hover::after, a:focus::after {
-  animation: none;
-  display: none;
-} */
 
-.glow-on-hover {
+.home--botaoGit--area {
   width: 220px;
   height: 50px;
   border: none;
@@ -117,7 +57,7 @@ a:hover{
   animation:none;
 }
 
-.glow-on-hover:before {
+.home--botaoGit--area:before {
   content: '';
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   position: absolute;
@@ -134,19 +74,19 @@ a:hover{
   border-radius: 10px;
 }
 
-.glow-on-hover:active {
+.home--botaoGit--area:active {
   color:  #151515;
 }
 
-.glow-on-hover:active:after {
+.home--botaoGit--area:active:after {
   background:  #151515;
 }
 
-.glow-on-hover:hover:before {
+.home--botaoGit--area:hover:before {
   opacity: 1;
 }
 
-.glow-on-hover:after {
+.home--botaoGit--area:after {
   z-index: -1;
   content: '';
   position: absolute;
@@ -158,18 +98,10 @@ a:hover{
   border-radius: 10px;
 }
 
-@keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
+.slider--mobile{
+  display: none;
 }
 
-
-@keyframes crescerLetra {
-  0% { font-size: 12px; }
-  50% { font-size: 17px; }
-  100% { font-size: 12px; }
-}
 
 
 @media (max-width: 1050px) {
@@ -190,9 +122,11 @@ a:hover{
   .home--skils{
     font-size: 25px;
   }
+
 }
-@media (max-width: 650px) {
+@media (max-width: 700px) {
   .home{
+    padding-top: 180px;
     flex-direction: column;
   }
   .home--nome{
@@ -203,6 +137,7 @@ a:hover{
   }
   .home--frase{
     font-size: 15px;
+    margin-bottom: 40px;
   }
   .home--Apresentacao{
     align-items: flex-start;
@@ -210,14 +145,17 @@ a:hover{
   }
   .home--botaoGit--area{
     height:100px;
+    width:100%;
+    animation: none;
     align-self: center;
   }
-  .home--botaoGit--botao {
-    min-width: 150px;
-    min-height: 30px;
-    font-size: 18px;
-    padding: 10px;
+  .slider--mobile{
+    display: block;
   }
+  .slider--web{
+    display: none;
+  }
+
   a::before {
     border-radius: 700px;
     min-width: calc(200px + 15px);
@@ -241,4 +179,16 @@ a:hover{
   to {
     color: #fff;
   }
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+@keyframes crescerLetra {
+  0% { font-size: 12px; }
+  50% { font-size: 17px; }
+  100% { font-size: 12px; }
 }
