@@ -7,29 +7,34 @@ interface ListFooter{
   children?: ListFooter[];
 }
 
-const TREE_DATA: ListFooter[] = [
+const TREE_DATA: any[] = [
   {
-    name: 'Front-End',
-    children: [{name: 'Angular'}, {name: 'ReactJS / React Native'}, {name: 'VueJS'}, {name: 'Ionic'}],
+    name: 'FRONTEND',
+    children: [{name: 'Angular'}, {name: 'ReactJS '},{name: 'React Native'}, {name: 'VueJS'}, {name: 'Ionic'}],
   },
   {
-    name: 'Back-End',
+    name: 'BACKEND',
     children: [{name: 'NodeJS'}, {name: 'JAVA'}],
   },
   {
-    name: 'Database',
-    children: [{name: 'MySql / PostgresSQL'}, {name: 'SQL Server'}, {name: 'MongoDB'}],
+    name: 'DATABASE',
+    children: [{name: 'MySql '}, {name: 'PostgresSQL'}, {name: 'SQL Server'}, {name: 'MongoDB'}],
   },
   {
-    name: ' Skills',
+    name: 'SKILLS',
     children: [
-      {name: 'Deploy: Netlify / Vercel / Heroku'}, 
-      {name: 'Firebase / Appwrite'}, 
-      {name: 'GitLab / Azure devops'},
-      {name: 'Insomnia / Postman'},
+      {name: 'Netlify '}, 
+      {name: 'Vercel '}, 
+      {name: 'Heroku'}, 
+      {name: 'Appwrite'}, 
+      {name: 'Firebase'},
+      {name: 'GitLab '},
+      {name: 'Azure devops'},
+      {name: 'Insomnia '},
+      {name: 'Postman'},
       {name: 'Jira'},
       {name: 'Jenkins'},
-      {name: 'WebSphere Application Server'}
+      {name: 'WebSphere Application Server (WAS)'}
     ],
   },
 ];
@@ -39,14 +44,11 @@ const TREE_DATA: ListFooter[] = [
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-  treeControl = new NestedTreeControl<ListFooter>(node => node.children);
-  dataSource = new MatTreeNestedDataSource<ListFooter>();
+  dataSource: any = [];
 
   constructor() { 
-    this.dataSource.data = TREE_DATA;
+    this.dataSource = TREE_DATA;
   }
- 
-  hasChild = (_: number, node: ListFooter) => !!node.children && node.children.length > 0;
 
   ngOnInit(): void {
   }
