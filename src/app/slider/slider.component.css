@@ -62,7 +62,7 @@ body {
   height: 100%;
   display: flex;
   transition: all ease 0.4s;
-  animation: show 20s forwards infinite;
+  animation: show 35s forwards infinite;
 }
 .slider--item {
   width: 100vw;
@@ -77,17 +77,24 @@ body {
   text-shadow: 1px 1px 1px #000;
 }
 
+
 @keyframes show {
   0%   {margin-left: 0px;}
-  10%  {margin-left: -220px;}
-  20%  {margin-left: -440px;}
-  30%  {margin-left: -660px;}
-  40%  {margin-left: -880px;}
-  50%  {margin-left: -1100px;}
-  60%  {margin-left: -1320px;}
-  70%  {margin-left: -880px;}
+  5%  {margin-left: -220px;}
+  15%  {margin-left: -440px;}
+  20%  {margin-left: -660px;}
+  25%  {margin-left: -880px;}
+  30%  {margin-left: -1100px;}
+  35%  {margin-left: -1320px;}
+  40%  {margin-left: -1540px;}
+  45%  {margin-left: -1760px;}
+  50%  {margin-left: -1980px;}
+  55%  {margin-left: -2200px;}
+  60%  {margin-left: -2420px;}
+  65%  {margin-left: -2640px;}
+  70%  {margin-left: -1760px;}
+  75%  {margin-left: -880px;}
   80%  {margin-left: -660px;}
-  90%  {margin-left: 0px;}
   100% {margin-left: 0px;}
 }
 
